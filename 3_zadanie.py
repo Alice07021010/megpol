@@ -1,6 +1,6 @@
 import csv
 with open ("C:\Users\sulej\Downloads\space.2.0.csv",encoding='utf-8') as f:
-    f=csv.DictReader(f,delimiter='*',quotecher='"')
+    f=csv.DictReader(f,delimiter='*',quotechar='"')
     d=sorted(reader,key=lambda x:x['ShipName'])
 shp_nm=input()
 
